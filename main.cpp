@@ -1,18 +1,13 @@
 
-#include "header.hpp"
-#include <string>
 #include <iostream>
-
-
-int main() 
+#include <string>
+#include "header.hpp"
+int main()
 {
-    std::string pass1 = "Haslo123#";
-    std::string pass2 = "Haslo123#";
+    std::string haslo = "PPSDASD";
 
-    if (checkCapitalLetter(pass1))
+    if(checkifupper(haslo))
     {
-        std::cout<<"welcome to the system !"
+        std::cout<<"aaa";
     }
-    
-}  
-    
+}
