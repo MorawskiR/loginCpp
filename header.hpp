@@ -5,12 +5,10 @@
 #include <string>
 // extern std::string pass1;//("Haslo123#");
 // extern std::string pass2;//= "Haslo123#";
-    // checkspecialchar();
-
-
+extern std::string specialCharacters;
+bool checkspecialchar(std::string password);
 bool checkifupper(std::string password);
-
-    // checkNumber();
-    // checklenght();
+bool checkNumber(std::string password);
+bool checklenght(std::string password);
 
     
